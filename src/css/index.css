@@ -1,0 +1,60 @@
+#logo {width: 40px; margin: 1%; padding-right: 10px}
+body {background-color: rgba(196, 196, 196, .2); height: 100% !important;}
+html, body, #root, #app>div {
+    height: 100%
+}
+
+/*BTN DROPDOWN MENU*/
+.dropdown-menu {}
+/* .btn-secondary {color: black !important; background-color: transparent !important;}
+.btn {padding: 4px 5px; font-size: 14px; color: #000000 !important; border: none; font-weight: 700; border-radius: 0;}
+.dropdown-menu {text-align: left !important; margin-left: -6em !important; margin-top: 3px !important; 
+    margin: 0; min-width: 13rem !important; background-color: #ffffff; box-shadow: 0 2px 4px 0 #A9A9A9;}
+.dropdown-menu input {width: 82%; margin-top: 20px; border: 1px solid #00ccff; margin-left: 21px;}
+.dropdown-menu li {list-style-type: none; width: 124%; float: right; line-height: 2.5em;}
+.dropdown-menu li:hover {background-color: #ccc;}
+.dropdown-menu a {margin-left: 24px; text-decoration: none; color: #000000; font-weight: 400;}
+.dropdown-menu li:nth-child(3) a {margin-left: 39px
+     !important;}
+.dropdown-header {color: #000000;}
+.dropdown-item:disabled {color: #000000;}
+.dropdown-item {width: 82% !important; background: #ffffff; border-radius: 5px; margin-left: 20px;
+    margin-top: 25px; margin-bottom: 16px; color: #000000; text-align: center; border: 0.5px solid #ccc;
+    box-shadow: 0 1px 2px 0 #ccc;}
+.dropdown-item:hover {cursor: pointer; background-color: #ffffff !important; color: #000000 !important;} */
+
+/* DIV GLOBAL - SERVIÇO */
+.global{height: 90%;}
+
+/* TABELA CLIENTE/POSTO */
+.fragment {height: 100% !important;}
+.div-tabela-posto { width: 93%; height: 100%; float: right; display: initial !important; margin-top: 3%; overflow: auto;
+    background-color: #ffffff; margin-right: 3%; border-radius: 5px; box-shadow: 0 2px 4px 0 #ccc;}
+
+/* TABELA TRABALHADOR */
+.trabalhador {display: none !important; height: 100%; overflow: auto;}
+
+/* ICON SAIR */
+.fa-w-16 {color: #000000; width: 1.7em !important; height: 1.2em !important; cursor: pointer;}
+
+/* ICON MENU */
+.fa-w-14 {width: 1.9em !important; height: 1.4em !important; color: #000000 !important;}
+.fa-w-10 {width: 0.5em !important; margin-bottom: 2px !important; margin-left: 4px !important;}
+.svg-inline--fa {margin-left: 7px !important}
+
+/* TOAST */
+.PropTypes { float: right; }
+
+/* TABLETAS */
+@media screen and (min-width: 755px) {
+    .global {display: inline-flex;}
+    .div-tabela-posto {width: 50%; margin-top: 1%; margin-left: 1%; margin-right: 0;}
+    .trabalhador {width: 50%; float: right; display: initial !important; margin-top: 1%;
+        background-color: #ffffff; margin-left: 1%; border-radius: 5px; box-shadow: 0 2px 4px 0 #ccc; height: 100%; 
+        overflow: auto; margin-right: 1%;}
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {margin-bottom: -1px !important;}
+    .nav-tabs {border-bottom: 0 !important;}
+}
